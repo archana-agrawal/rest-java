@@ -32,6 +32,7 @@ public class User extends BaseEntity {
     private String lastName;
     private String emailAddress;
     private String hashedPassword;
+    private String phoneNumber;
     private boolean isVerified;
 
     @Enumerated(EnumType.STRING)
